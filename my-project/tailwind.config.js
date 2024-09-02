@@ -16,6 +16,7 @@ export default {
       'white' : '#f8fafc',
       'Gray200' : '#e5e7eb',
       'whiteTransparent' : 'rgba(255, 255, 255, 0.542)',
+      'BlackTransparent' : 'rgba(0, 0, 0, 0.519)'
     },
     fontFamily: {
       Frist: ["Rubik", 'sans-serif'],
