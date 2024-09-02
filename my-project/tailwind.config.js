@@ -12,10 +12,11 @@ export default {
       'Black' : '#0D0D0D',
       'Brown' : '#8C6849',
       'Bege': '#BFAE99',
+      'white' : '#f8fafc',
     },
     fontFamily: {
-      sans: ['Graphik', 'sans-serif'],
-      serif: ['Merriweather', 'serif'],
+      Frist: ["Rubik", 'sans-serif'],
+      Second: ["Baskervville SC",'serif'],
     },
     screens: {
       'Mobile': {'max': '639px'},
