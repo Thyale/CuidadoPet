@@ -9,6 +9,7 @@ export default {
     colors: {
       'Yellow': '#F2E205',
       'Green': '#2E5F2E',
+      'GreenDark': '#1F4220',
       'Black' : '#0D0D0D',
       'Brown' : '#8C6849',
       'Bege': '#BFAE99',

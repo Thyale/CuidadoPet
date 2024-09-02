@@ -12,7 +12,7 @@ export default function Header(){
                 <li><a className="hover:font-bold" href="#">Notícias</a></li>
                 <li><a className="hover:font-bold" href="#">Contato</a></li>
             </ul>
-            <button className="bg-Green p-2 rounded-lg text-white Mobile:hidden">Entre em Contato</button>
+            <button className="bg-Green hover:bg-GreenDark p-2 rounded-lg text-white Mobile:hidden">Entre em Contato</button>
         </header>
     )
 }
