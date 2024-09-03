@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "scrollreveal": "^4.0.9"
+    "scrollreveal": "^4.0.9",
+    "sweetalert2": "^11.13.1"
   }
 }
