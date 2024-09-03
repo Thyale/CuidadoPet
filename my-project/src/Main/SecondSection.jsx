@@ -1,13 +1,29 @@
+import { useEffect } from "react";
+import ScrollReveal from 'scrollreveal';
+
 export default function SecondSection(){
+
+    useEffect(() => {
+        ScrollReveal().reveal('#Oferecimentos', {
+            origin: 'bottom',
+            distance: '50px',
+            duration: 1000,
+            delay: 200,
+            easing: 'ease-in-out',
+            opacity: 0,
+            scale: 0.9,
+            reset: true
+        });
+    }, []); 
+
     return(
         <section id="Offer" className=" flex flex-col gap-4 p-6 font-Frist">
             <h1 className="font-bold text-center text-3xl uppercase text-GreenDark">O que oferecemos</h1>
-
             <div className="flex flex-row items-center justify-center gap-3 my-4 Mobile:flex-col">
 
                 <div className=" flex flex-col gap-2 items-end Mobile:items-center">
 
-                    <div className=" flex flex-row-reverse items-center gap-4 text-right w-7/12 Mobile:w-full Mobile:flex-row Mobile:text-left">
+                    <div id="Oferecimentos" className=" flex flex-row-reverse items-center gap-4 text-right w-7/12 Mobile:w-full Mobile:flex-row Mobile:text-left">
                         <div className="bg-Green text-white px-6 py-3 rounded-full text-2xl">1</div>
                         <div>
                             <h2 className="text-GreenDark font-bold text-lg">Treinamento em Grupo</h2>
@@ -15,7 +31,7 @@ export default function SecondSection(){
                         </div>
                     </div>
 
-                    <div className=" flex flex-row-reverse items-center gap-4 text-right w-7/12 Mobile:w-full Mobile:flex-row Mobile:text-left">
+                    <div id="Oferecimentos" className=" flex flex-row-reverse items-center gap-4 text-right w-7/12 Mobile:w-full Mobile:flex-row Mobile:text-left">
                         <div className="bg-Yellow text-white px-5 py-3 rounded-full text-2xl">2</div>
                         <div>
                             <h2 className="text-GreenDark font-bold text-lg">Treinamento Individual</h2>
@@ -23,7 +39,7 @@ export default function SecondSection(){
                         </div>
                     </div>
 
-                    <div className=" flex flex-row-reverse items-center gap-4 text-right w-7/12 Mobile:w-full Mobile:flex-row Mobile:text-left">
+                    <div id="Oferecimentos" className=" flex flex-row-reverse items-center gap-4 text-right w-7/12 Mobile:w-full Mobile:flex-row Mobile:text-left">
                         <div className="bg-Green text-white px-5 py-3 rounded-full text-2xl">3</div>
                         <div>
                             <h2 className="text-GreenDark font-bold text-lg">Treinamento Virtual</h2>
@@ -33,24 +49,24 @@ export default function SecondSection(){
 
                 </div>
 
-                <img className="w-4/12 max-w-72 Mobile:w-full" src="ImgBase.png" alt="Img de gato e cachorro juntos" />
+                <img id="Oferecimentos" className="w-4/12 max-w-72 Mobile:w-full" src="ImgBase.png" alt="Img de gato e cachorro juntos" />
 
                 <div className=" flex flex-col gap-2 items-start">
-                    <div className=" flex flex-row items-center gap-4 text-left w-7/12 Mobile:w-full" >
+                    <div id="Oferecimentos" className=" flex flex-row items-center gap-4 text-left w-7/12 Mobile:w-full" >
                         <div className="bg-Yellow text-white px-5 py-3 rounded-full text-2xl">4</div>
                         <div>
                             <h2 className="text-GreenDark font-bold text-lg">Treinamento para Filhotes</h2>
                             <p className="text-BlackTransparent text-sm">Dê ao seu filhote o melhor começo com nosso programa especializado em comportamento para cães jovens.</p>
                         </div>
                     </div>
-                    <div className=" flex flex-row items-center gap-4 text-left w-7/12 Mobile:w-full">
+                    <div id="Oferecimentos" className=" flex flex-row items-center gap-4 text-left w-7/12 Mobile:w-full">
                         <div className="bg-Green text-white px-5 py-3 rounded-full text-2xl">5</div>
                         <div>
                             <h2 className="text-GreenDark font-bold text-lg">Programa Especializado</h2>
                             <p className="text-BlackTransparent text-sm">Participe de nossos programas avançados para necessidades comportamentais específicas.</p>
                         </div>
                     </div>
-                    <div className=" flex flex-row items-center gap-4 text-left w-7/12 Mobile:w-full">
+                    <div id="Oferecimentos" className=" flex flex-row items-center gap-4 text-left w-7/12 Mobile:w-full">
                         <div className="bg-Yellow text-white px-5 py-3 rounded-full text-2xl">6</div>
                         <div>
                             <h2 className="text-GreenDark font-bold text-lg">Programa de Segurança</h2>

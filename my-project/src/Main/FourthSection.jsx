@@ -1,6 +1,21 @@
+import { useEffect } from 'react';
 import Swal from 'sweetalert2';
+import ScrollReveal from 'scrollreveal';
 
 export default function FourthSection(){
+
+    useEffect(() => {
+        ScrollReveal().reveal('#BtnMoreInfos', {
+            origin: 'left',
+            distance: '50px',
+            duration: 800,
+            delay: 200,
+            easing: 'ease-in-out',
+            opacity: 0,
+            scale: 0.9,
+            reset: true
+        });
+    }, []); 
 
     function MoreInfor(x){
 
@@ -34,19 +49,19 @@ export default function FourthSection(){
                     <img className="w-full max-w-72 rounded-lg" src="PetGrooming.jpg" alt="Imagem de Pet Grooming" />
                     <h2 className="text-Yellow font-Second text-3xl font-semibold">Pet Grooming</h2>
                     <p className="text-center text-BlackTransparent">Cuide da higiene do seu pet com nossos serviços especializados de grooming.</p>
-                    <button onClick={()=>MoreInfor(1)} className="bg-Green text-white hover:bg-GreenDark p-2 w-8/12 rounded-xl">Saiba Mais</button>
+                    <button id='BtnMoreInfos' onClick={()=>MoreInfor(1)} className="bg-Green text-white hover:bg-GreenDark p-2 w-8/12 rounded-xl">Saiba Mais</button>
                 </div>
                 <div className="flex flex-col items-center max-w-96 gap-2 p-2">
                     <img className="w-full max-w-72 rounded-lg" src="PetPhotography.jpg" alt="Imagem de Pet Grooming" />
                     <h2 className="text-Yellow font-Second text-3xl font-semibold">Pet Photography</h2>
                     <p className="text-center text-BlackTransparent">Capture momentos especiais com fotos profissionais do seu pet.</p>
-                    <button onClick={()=>MoreInfor(2)} className="bg-Green text-white hover:bg-GreenDark p-2 w-8/12 rounded-xl">Saiba Mais</button>
+                    <button id='BtnMoreInfos' onClick={()=>MoreInfor(2)} className="bg-Green text-white hover:bg-GreenDark p-2 w-8/12 rounded-xl">Saiba Mais</button>
                 </div>
                 <div className="flex flex-col items-center max-w-96 gap-2 p-2">
                     <img className="w-full max-w-72 rounded-lg" src="PetSocialEvents.jpg" alt="Imagem de Pet Grooming" />
                     <h2 className="text-Yellow font-Second text-3xl font-semibold">Pet Social Events</h2>
                     <p className="text-center text-BlackTransparent">Promova a socialização do seu pet em nossos eventos exclusivos.</p>
-                    <button onClick={()=>MoreInfor(3)} className="bg-Green text-white hover:bg-GreenDark p-2 w-8/12 rounded-xl">Saiba Mais</button>
+                    <button id='BtnMoreInfos' onClick={()=>MoreInfor(3)} className="bg-Green text-white hover:bg-GreenDark p-2 w-8/12 rounded-xl">Saiba Mais</button>
                 </div>
             </div>
         </section>
