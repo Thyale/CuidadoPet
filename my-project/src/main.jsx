@@ -7,6 +7,7 @@ import SecondSection from './Main/SecondSection'
 import ThirdSection from './Main/ThirdSection'
 import Footer from './Footer/Footer'
 
+import IconWhats from './Main/WhatsApp/IconWhats'
 import './index.css'
 
 createRoot(document.getElementById('root')).render(
@@ -16,5 +17,7 @@ createRoot(document.getElementById('root')).render(
       <SecondSection/>
       <ThirdSection/>
     <Footer/>
+
+    <IconWhats/>
   </StrictMode>,
 )

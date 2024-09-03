@@ -1,6 +1,6 @@
 export default function SecondSection(){
     return(
-        <section className=" flex flex-col gap-4 p-6 font-Frist">
+        <section id="Offer" className=" flex flex-col gap-4 p-6 font-Frist">
             <h1 className="font-bold text-center text-3xl uppercase text-GreenDark">O que oferecemos</h1>
 
             <div className="flex flex-row items-center justify-center gap-3 my-4 Mobile:flex-col">
