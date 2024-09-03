@@ -1,4 +1,4 @@
-export default function FirstSection(){
+export default function Introduction(){
     return(
         <section className="flex flex-row justify-center gap-10 items-center p-9 font-Frist">
             <div>

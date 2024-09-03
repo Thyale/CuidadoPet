@@ -1,7 +1,7 @@
 import ScrollReveal from 'scrollreveal';
 import { useEffect} from 'react';
 
-export default function ThirdSection(){
+export default function InformationBar(){
 
     useEffect(() => {
         ScrollReveal().reveal('#Detalhes', {

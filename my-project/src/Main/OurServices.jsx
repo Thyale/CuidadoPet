@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import Swal from 'sweetalert2';
 import ScrollReveal from 'scrollreveal';
 
-export default function FourthSection(){
+export default function OurServices(){
 
     useEffect(() => {
         ScrollReveal().reveal('#BtnMoreInfos', {

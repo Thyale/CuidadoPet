@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import ScrollReveal from 'scrollreveal';
 
-export default function SecondSection(){
+export default function WeOffer(){
 
     useEffect(() => {
         ScrollReveal().reveal('#Oferecimentos', {

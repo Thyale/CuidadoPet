@@ -9,6 +9,7 @@ export default {
     colors: {
       'Yellow': '#B3A704',
       'Green': '#2E5F2E',
+      'LigthGreen' : '#388938',
       'GreenDark': '#1F4220',
       'Black' : '#0D0D0D',
       'Brown' : '#8C6849',
@@ -24,6 +25,7 @@ export default {
     },
     screens: {
       'Mobile': {'max': '639px'},
+      'DeskTop' : {'min' : '1200px'},
     },
     extend: {},
   },
