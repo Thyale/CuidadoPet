@@ -12,7 +12,7 @@ export default function Header(){
             easing: 'ease-in-out',
             opacity: 0,
             scale: 0.9,
-            reset: true
+            reset: false
         });
     }, []); 
 
