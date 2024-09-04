@@ -46,19 +46,19 @@ export default function OurServices(){
             <h1 className="font-bold text-center text-3xl uppercase text-GreenDark">Nossos serviços</h1>
             <div className="flex flex-row items-center justify-center gap-3 my-4 Mobile:flex-col">
                 <div className="flex flex-col items-center max-w-96 gap-2 p-2">
-                    <img className="w-full max-w-72 rounded-lg" src="/PetGrooming.jpg" alt="Imagem de Pet Grooming" />
+                    <img className="w-full max-w-72 rounded-lg" src="PetGrooming.jpg" alt="Imagem de Pet Grooming" />
                     <h2 className="text-Yellow font-Second text-3xl font-semibold">Pet Grooming</h2>
                     <p className="text-center text-BlackTransparent">Cuide da higiene do seu pet com nossos serviços especializados de grooming.</p>
                     <button id='BtnMoreInfos' onClick={()=>MoreInfor(1)} className="bg-Green text-white hover:bg-GreenDark p-2 w-8/12 rounded-xl">Saiba Mais</button>
                 </div>
                 <div className="flex flex-col items-center max-w-96 gap-2 p-2">
-                    <img className="w-full max-w-72 rounded-lg" src="/PetPhotography.jpg" alt="Imagem de Pet Grooming" />
+                    <img className="w-full max-w-72 rounded-lg" src="PetPhotography.jpg" alt="Imagem de Pet Grooming" />
                     <h2 className="text-Yellow font-Second text-3xl font-semibold">Pet Photography</h2>
                     <p className="text-center text-BlackTransparent">Capture momentos especiais com fotos profissionais do seu pet.</p>
                     <button id='BtnMoreInfos' onClick={()=>MoreInfor(2)} className="bg-Green text-white hover:bg-GreenDark p-2 w-8/12 rounded-xl">Saiba Mais</button>
                 </div>
                 <div className="flex flex-col items-center max-w-96 gap-2 p-2">
-                    <img className="w-full max-w-72 rounded-lg" src="/PetSocialEvents.jpg" alt="Imagem de Pet Grooming" />
+                    <img className="w-full max-w-72 rounded-lg" src="PetSocialEvents.jpg" alt="Imagem de Pet Grooming" />
                     <h2 className="text-Yellow font-Second text-3xl font-semibold">Pet Social Events</h2>
                     <p className="text-center text-BlackTransparent">Promova a socialização do seu pet em nossos eventos exclusivos.</p>
                     <button id='BtnMoreInfos' onClick={()=>MoreInfor(3)} className="bg-Green text-white hover:bg-GreenDark p-2 w-8/12 rounded-xl">Saiba Mais</button>

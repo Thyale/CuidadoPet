@@ -10,7 +10,7 @@ export default function Introduction(){
                     <a href="#Offer"><button className="hover:bg-Gray200 text-Green border-Green border p-2 rounded-lg">Mais Detalhes</button></a>
                 </div>
             </div>
-            <img className="w-6/12 max-w-md Mobile:hidden" src="/ImgBase.png" alt="Imagem Principal de um gato com um cachorro" />
+            <img className="w-6/12 max-w-md Mobile:hidden" src="ImgBase.png" alt="Imagem Principal de um gato com um cachorro" />
         </section>
     )
 }
