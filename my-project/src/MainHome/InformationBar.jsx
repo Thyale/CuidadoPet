@@ -17,7 +17,7 @@ export default function InformationBar(){
     }, []); 
 
     return(
-        <section className="bg-[url('../../public/ImgFundoBarra.png')] bg-cover bg-no-repeat bg-center font-Frist">
+        <section className="ImgBarra font-Frist">
             <div className="flex flex-row gap-3 flex-wrap px-6 py-16 justify-around">
                 <div id='Detalhes' className="flex flex-col gap-2 items-center p-2">
                     <i class="fas fa-smile text-white text-5xl"></i>

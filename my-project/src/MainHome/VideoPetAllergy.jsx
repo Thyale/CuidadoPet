@@ -17,7 +17,7 @@ export default function VideoPetAllergy(){
     }, []); 
 
     return(
-        <section className="bg-[url('ImgPetAllergies.jpg')] bg-cover bg-no-repeat bg-center p-6 flex fle-row justify-center gap-6 font-Frist py-16 flex-wrap items-center">
+        <section className="ImgAllergies p-6 flex fle-row justify-center gap-6 font-Frist py-16 flex-wrap items-center">
             <div id="Allergies" className="flex flex-col gap-6 DeskTop:w-6/12">
                 <h1 className="text-LigthGreen text-5xl">Animais de estimação tem alergias?</h1>
                 <p className="text-white text-lg">Sim, animais de estimação também podem ter alergias. Assim como os humanos, eles podem reagir a uma variedade de substâncias, como alimentos, pólen, poeira, ácaros e produtos químicos. Os sintomas em animais de estimação podem incluir coceira excessiva, problemas de pele, espirros, secreção nasal, e até problemas gastrointestinais. </p>
