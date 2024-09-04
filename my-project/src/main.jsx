@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client'
 
 import Header from './Header/Header'
   import Introduction from './MainHome/Introduction'
+  import About from './MainHome/About'
   import WeOffer from './MainHome/WeOffer'
   import InformationBar from './MainHome/InformationBar'
   import OurServices from './MainHome/OurServices'
@@ -17,6 +18,7 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Header/>
       <Introduction/>
+      <About/>
       <WeOffer/>
       <InformationBar/>
       <OurServices/>
