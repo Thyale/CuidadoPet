@@ -20,7 +20,7 @@ export default function Header(){
         <header className="
         flex flex-row items-center justify-around p-2 font-Frist text-Green
         Mobile:flex-col Mobile:gap-4">
-            <img className="max-w-14" src="IconBlack.png" alt="Ícone Logo da página" />
+            <img className="max-w-14" src="/IconBlack.png" alt="Ícone Logo da página" />
             <ul className="flex flex-row items-center gap-4 flex-wrap justify-center">
                 <li><a className="hover:font-bold" href="#">Home</a></li>
                 <li><a className="hover:font-bold" href="#About">Sobre</a></li>

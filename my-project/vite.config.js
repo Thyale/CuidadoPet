@@ -8,5 +8,6 @@ export default defineConfig({
   build: {
     publicDir: 'public',
     assetsInclude: ['public/**/*'],
+    copyPublicDir: true,
   },
 })

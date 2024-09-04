@@ -1,7 +1,7 @@
 export default function Footer(){
     return(
         <footer id="Footer" className="bg-Green flex flex-row items-center text-white font-Frist justify-around p-6 Mobile:flex-col gap-6 Mobile:items-start">
-            <img className="w-32" src="IconWhite.png" alt="Ícone" />
+            <img className="w-32" src="/IconWhite.png" alt="Ícone" />
             <div className="flex flex-row items-start gap-2 Mobile:flex-col Mobile:gap-6 ">
                <div className="flex flex-col gap-2 max-w-96">
                 <h2 className="text-xl">Horário de Funcionamento</h2>
