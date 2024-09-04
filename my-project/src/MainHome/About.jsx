@@ -19,7 +19,7 @@ export default function About(){
 
     return(
         <section id="About" className="w-full font-Frist my-6">
-            <div id="DivAbout" className="shadow-2xl w-11/12 m-auto p-6 bg-[url('ImgBgAbout.png')] bg-cover bg-no-repeat bg-center rounded-2xl ">
+            <div id="DivAbout" className="shadow-2xl w-11/12 m-auto p-6 bg-[url('../../public/ImgBgAbout.png')] bg-cover bg-no-repeat bg-center rounded-2xl ">
                 <div className="text-center Mobile:w-full w-10/12 m-auto"> 
                     <h1 className="font-bold mb-4 text-3xl uppercase text-Yellow font-Second">Sobre Nós</h1>
                     <p className="text-lg text-Green">Somos apaixonados por animais e comprometidos com o bem-estar e o desenvolvimento de cada um deles. Nossa missão é proporcionar o melhor cuidado e treinamento para cães e gatos, ajudando os donos a criar uma conexão mais forte e saudável com seus pets</p>
